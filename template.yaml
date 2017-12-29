@@ -2,10 +2,10 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2016-10-31'
 Description: An AWS Serverless Specification template describing your function.
 Resources:
-  i-bab-bot-analyze-text:
+  iLabBotAnalyzeText:
     Type: 'AWS::Serverless::Function'
     Properties:
-      Handler: i-lab-bot-analyze-text/index.handler
+      Handler: iLabBotAnalyzeText/index.handler
       Runtime: nodejs6.10
       Description: ''
       MemorySize: 128
